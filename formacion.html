@@ -4,43 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
   </head>
   <body>
     <!-- HEADER -->
-    <header>
+    <header class="cabecera">
       <div>
-        <h1>Curriculum Vitae</h1>
+        <h1 class="titulo">Curriculum Vitae</h1>
+        <img class="imagenkat" src="./pcat.png" alt="" />
       </div>
     </header>
     <!-- NAVBAR -->
-    <nav>
+    <nav class="menuNav colors">
       <div>
-        <a href="./informacion.html">Informacion Personal</a>
-        <a href="#">Formacion Academica</a>
-        <a href="./experiencia.html">Experiencia Laboral</a>
-        <a href="./sobremi.html">Sobre Mi</a>
-        <a href="./redes.html">Redes</a>
-        <a href="./index.html">Inicio</a>
+        <button class="menu">
+          <a href="./index.html">Inicio</a>
+        </button>
+        <button class="menu">
+          <a href="./informacion.html">Informacion Personal</a>
+        </button>
+        <button class="menu">
+          <a href="#">Formacion Academica</a>
+        </button>
+        <button class="menu">
+          <a href="./experiencia.html">Experiencia Laboral</a>
+        </button>
+        <button class="menu">
+          <a href="./sobremi.html">Sobre Mi</a>
+        </button>
+        <button class="menu">
+          <a href="./redes.html">Redes</a>
+        </button>
       </div>
     </nav>
     <!-- MAIN -->
-    <main>
+    <main class="colors">
         <!-- SECCION 1 -->
       
         <div>
             <h2>Estudios:</h2>
-          <ul>
+          <ul class="listaDos">
             <li>Primario: completo</li>
             <li>Secundario: completo</li>
             <li>Terciario: en curso.</li>
           </ul>
 
           <h2>Otros estudios:</h2>
-          <ul>
+          <ul class="listaDos">
             <li>Reparacion y armado de pc</li>
             <li>Redes</li>
           </ul>
+        </div>
+
+        <div class="container">
+          <figure>
+          <a href="./index.html"> <img class="cat" src="./pusheen.gif" alt="" /></a>
+        </figure>
         </div>
       
     </main>
@@ -48,7 +68,7 @@
     <!-- FOOTER -->
     <footer>
       <div>
-        <p>19-01-2023 Rep. Argentina</p>
+        <p class="foot">19-01-2023 Rep. Argentina</p>
       </div>
     </footer>
   </body>

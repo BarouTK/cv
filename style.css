@@ -1,3 +1,138 @@
-*{
-    color:aliceblue;
+.maincolor {
+  background-color: #dbf4a7;
 }
+
+.cabecera {
+  height: 20rem;
+  padding-top: 1rem;
+  background-color: #d5f9de;
+}
+
+.imagenkat {
+  width: 350px;
+  display: inline;
+  float: right;
+  margin-right: 5px;
+}
+
+.titulo {
+  display: inline-block;
+  font-size: 75px;
+  margin-left: 30%;
+  padding-top: 50px;
+  color: #8aa399;
+  font-family: "Indie Flower", cursive;
+}
+
+/* Navbar button */
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #000000;
+}
+
+.colors {
+  background-color: #dbf4a7;
+}
+
+.menu {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+  height: 3rem;
+}
+
+.menuNav {
+  text-align: center;
+}
+
+/* Imagen CatPusheen */
+
+.container{
+    display: flex;
+    justify-content: end;
+}
+
+.cat {
+  width: 200px;
+  display: inline;
+  
+  margin-top: 300px;
+  
+}
+
+/* footer color */
+
+footer {
+  clear: right;
+  
+
+  height: 50px;
+  border-style: solid;
+
+  border-color: #ffb7c3;
+  background-color: #ffb7c3;
+}
+
+.foot{
+    text-align: right;
+    margin-right: 5px;
+}
+
+
+/* Foto */
+
+.foto{
+    display: inline-block;
+    
+}
+
+.foto2{
+    display: inline-block;
+    border-radius: 100%;
+    border-style: none;
+    width: 200px;
+}
+
+/* Lista */
+
+.lista{
+    display: inline-block;
+    font-size: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    list-style: none;
+    
+}
+
+li{
+    padding-top: 10px;
+}
+
+/* Iconos lista */
+li::before{
+    content: '';
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    background-image: url(./picon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.listaDos{
+    list-style: none;
+    font-size: 20px;
+}
+    
