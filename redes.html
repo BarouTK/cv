@@ -4,41 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>CV</title>
   </head>
   <body>
     <!-- HEADER -->
-    <header>
+    <header class="cabecera">
       <div>
-        <h1>Curriculum Vitae</h1>
+        <h1 class="titulo">Curriculum Vitae</h1>
+
+        <img class="imagenkat" src="./img/pcat.png" alt="" />
       </div>
     </header>
     <!-- NAVBAR -->
-    <nav>
+    <nav class="menuNav colors">
       <div>
-        <a href="#">Redes</a>
-        <a href="./informacion.html">Informacion Personal</a>
-        <a href="./formacion.html">Formacion Academica</a>
-        <a href="./experiencia.html">Experiencia Laboral</a>
-        <a href="./sobremi.html">Sobre Mi</a>
-        <a href="./index.html">Inicio</a>
+        <button class="menu">
+          <a href="#">Inicio</a>
+        </button>
+        <!-- <img src="./pcat.png" class="iconav" alt=""> -->
+        <button class="menu">
+          <a href="./informacion.html">Informacion Personal</a>
+        </button>
+        <button class="menu">
+          <a href="./formacion.html">Formacion Academica</a>
+        </button>
+        <button class="menu">
+          <a href="./experiencia.html">Experiencia Laboral</a>
+        </button>
+        <button class="menu">
+          <a href="./sobremi.html">Sobre Mi</a>
+        </button>
+        <button class="menu">
+          <a href="./redes.html">Redes</a>
+        </button>
       </div>
     </nav>
-
-    <!-- SALTO DE LINEA -->
-    <br />
-
     <!-- MAIN -->
     <main>
       <!-- SECCION 1 LINKS -->
-      
-        <div>
+
+      <div class="redes">
+        <button class="bRedes">
           <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </button>
+        <button class="bRedes">
           <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        </button>
+        <button class="bRedes twitter">
           <a href="https://twitter.com/" target="_blank">Twitter</a>
+        </button>
+        <button class="bRedes">
           <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-        </div>
-      
+        </button>
+      </div>
+
+      <div class="containerMail">
+        <form action="" class="formulario">
+          <label for="e-mail">E-Mail</label>
+          <input type="email" />
+          <label for="NombreApellido">Nombre y Apellido</label>
+          <input type="text" />
+
+          <label for="Comentario">Comentarios</label>
+          <textarea
+            name="comentario"
+            id="comentario"
+            cols="50"
+            rows="20"
+          ></textarea>
+        </form>
+      </div>
     </main>
 
     <!-- FOOTER -->

@@ -1,7 +1,10 @@
+
+
+/* Color de fondo */
 .maincolor {
   background-color: #dbf4a7;
 }
-
+/* Header */
 .cabecera {
   height: 20rem;
   padding-top: 1rem;
@@ -14,6 +17,8 @@
   float: right;
   margin-right: 5px;
 }
+
+
 
 .titulo {
   display: inline-block;
@@ -50,6 +55,16 @@ a:active {
   text-align: center;
 }
 
+button{
+  border-radius: 20px;
+  
+  
+}
+
+button:hover{
+  background-color: #ffb7c3;
+}
+
 /* Imagen CatPusheen */
 
 .container{
@@ -81,9 +96,10 @@ footer {
 .foot{
     text-align: right;
     margin-right: 5px;
+    
 }
 
-
+/* Pagina Informacion */
 /* Foto */
 
 .foto{
@@ -119,7 +135,7 @@ li::before{
     display: inline-block;
     width: 65px;
     height: 30px;
-    background-image: url(./picon.png);
+    background-image: url(./img/picon.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -136,3 +152,48 @@ h2{
     font-size: 20px;
 }
     
+
+/* experimento */
+
+/* .iconav{
+  height: 150px;
+  width: 150px;
+  z-index: -1;
+  
+  position: fixed;
+  top: 300px;
+  left: 400px;
+} */
+
+
+.bRedes{
+  width: 100px;
+  height: 40px;
+  text-decoration: none;
+  margin-left: 20px;
+  text-align: left;
+  
+}
+
+.redes{
+  
+  text-align: center;
+
+}
+
+.twitter{
+  background-image: url(./img/PusheenTwitter.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  
+  background-position: right;
+}
+
+.formulario{
+  padding: 100px;
+}
+
+#comentario{
+  display: inline-block;
+  
+}
